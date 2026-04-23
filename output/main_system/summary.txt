@@ -1,0 +1,22 @@
+Scope: main_system
+Note: BNT-KNN-xSBCT series; physical descriptors only (occupancy fractions dropped - collinear with X).
+Samples: 101
+Initial descriptors: 30
+Feature selection reused from 'all_data' scope. Pruning was skipped here because every descriptor is a monotone function of X inside this one-dimensional composition series.
+Top-10 features used for training:
+  - 总构型熵 ΔS_total (J/mol·K)  (S_tot)
+  - A位构型熵 ΔS_A (J/mol·K)  (A_S)
+  - A位平均相对原子质量  (A_M)
+  - A/B平均半径比  (rA_rB)
+  - B位构型熵 ΔS_B (J/mol·K)  (B_S)
+  - B位价态失配 σV_B  (B_vmis)
+
+Selected models:
+  Wrec (Wrec(J/cm3)): GradientBoosting, Test MAE = 0.08323 ± 0.0205, Test R2 = 0.989
+  eta (效率η（%）): RandomForest, Test MAE = 0.6115 ± 0.2639, Test R2 = 0.899
+
+Scope interpretation:
+  - 'Best predicted' / 'Best measured' refer to the best candidate
+    in the collected dataset, not a global optimum.
+  - Pareto front uses OOF-predicted Wrec and eta.
+  - Combined score = 0.5*Wrec_norm + 0.5*eta_norm (min-max scaling).
