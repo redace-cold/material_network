@@ -31,6 +31,8 @@ Core tasks:
 .
 ├── ML-4-数据收集.xlsx               # Input descriptor dataset
 ├── ml_change.py                    # Main machine-learning pipeline
+├── 01_wrec_only_workflow/          # Complete previous workflow and its output
+├── 02_wrec_eta_dual_workflow/      # Complete updated Wrec+η workflow and output
 ├── code_versions/                  # Separated historical/current code versions
 │   ├── 01_wrec_only_feature_selection/
 │   │   └── ml_change_wrec_only.py   # Previous Wrec-only feature-selection version
@@ -48,6 +50,19 @@ Core tasks:
 ```
 
 ## 2.1 Code version distinction
+
+The repository now keeps two complete workflow folders at the root level:
+
+- [`01_wrec_only_workflow`](01_wrec_only_workflow/): previous workflow plus its
+  corresponding `output/` results. Feature selection is driven mainly by
+  `Wrec`.
+- [`02_wrec_eta_dual_workflow`](02_wrec_eta_dual_workflow/): updated workflow
+  plus its corresponding `output/` results. Feature selection combines `Wrec`
+  and eta with the default weighting `0.70 * Wrec + 0.30 * eta`.
+
+These folders are the recommended entry points when comparing the two methods,
+because the output figures and tables differ after eta is introduced into
+feature selection.
 
 Two code versions are kept under [`code_versions/`](code_versions/) to make the
 method evolution explicit:

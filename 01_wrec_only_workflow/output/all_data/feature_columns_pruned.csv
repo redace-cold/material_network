@@ -1,0 +1,21 @@
+﻿Feature,Feature_Alias,Descriptor_Code,Scope
+总构型熵 ΔS_total (J/mol·K),S_tot,D01,all_data
+A位构型熵 ΔS_A (J/mol·K),A_S,D02,all_data
+A位分数_Ca,fA_Ca,D03,all_data
+A位分数_K,fA_K,D04,all_data
+A位平均相对原子质量,A_M,D05,all_data
+B位构型熵 ΔS_B (J/mol·K),B_S,D06,all_data
+B位价态失配 σV_B,B_vmis,D07,all_data
+A位平均第一电离能(eV),A_IE1,D08,all_data
+B位分数_Ti,fB_Ti,D09,all_data
+A位分数_Ba,fA_Ba,D10,all_data
+A位半径方差(Å^2),A_rvar,D11,all_data
+B位平均第一电离能(eV),B_IE1,D12,all_data
+A位分数_Bi,fA_Bi,D13,all_data
+B位分数_Sn,fB_Sn,D14,all_data
+B位半径方差(Å^2),B_rvar,D15,all_data
+B位分数_Ta,fB_Ta,D16,all_data
+B位分数_Zr,fB_Zr,D17,all_data
+A位原始总量,A_sum,D18,all_data
+容忍因子 t,t,D19,all_data
+总价态失配 σV_total,vmis_tot,D20,all_data

@@ -1,0 +1,31 @@
+﻿Feature,Feature_Alias,Descriptor_Code,Scope
+X,X,D01,main_system
+A位平均Shannon半径(Å),A_r,D02,main_system
+B位平均Shannon半径(Å),B_r,D03,main_system
+A/B平均半径比,rA_rB,D04,main_system
+A-B平均半径差(Å),dr_AB,D05,main_system
+容忍因子 t,t,D06,main_system
+八面体因子 μ,mu,D07,main_system
+A位半径方差(Å^2),A_rvar,D08,main_system
+B位半径方差(Å^2),B_rvar,D09,main_system
+A位半径失配 δr,A_drm,D10,main_system
+B位半径失配 δr,B_drm,D11,main_system
+A位构型熵 ΔS_A (J/mol·K),A_S,D12,main_system
+B位构型熵 ΔS_B (J/mol·K),B_S,D13,main_system
+总构型熵 ΔS_total (J/mol·K),S_tot,D14,main_system
+A位平均Pauling电负性,A_chi,D15,main_system
+B位平均Pauling电负性,B_chi,D16,main_system
+Δχ(A-O),dchi_AO,D17,main_system
+Δχ(B-O),dchi_BO,D18,main_system
+Δχ(A-B),dchi_AB,D19,main_system
+A位平均名义价态,A_v,D20,main_system
+B位平均名义价态,B_v,D21,main_system
+A位价态失配 σV_A,A_vmis,D22,main_system
+B位价态失配 σV_B,B_vmis,D23,main_system
+总价态失配 σV_total,vmis_tot,D24,main_system
+A位平均相对原子质量,A_M,D25,main_system
+B位平均相对原子质量,B_M,D26,main_system
+A位平均极化率(bohr^3),A_alpha,D27,main_system
+B位平均极化率(bohr^3),B_alpha,D28,main_system
+A位平均第一电离能(eV),A_IE1,D29,main_system
+B位平均第一电离能(eV),B_IE1,D30,main_system

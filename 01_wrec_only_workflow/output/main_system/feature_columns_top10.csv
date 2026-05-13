@@ -1,0 +1,8 @@
+﻿Feature,Feature_Alias,Descriptor_Code,Scope
+总构型熵 ΔS_total (J/mol·K),S_tot,D01,main_system
+A位构型熵 ΔS_A (J/mol·K),A_S,D02,main_system
+容忍因子 t,t,D03,main_system
+B位构型熵 ΔS_B (J/mol·K),B_S,D04,main_system
+B位价态失配 σV_B,B_vmis,D05,main_system
+A位平均相对原子质量,A_M,D06,main_system
+A位半径方差(Å^2),A_rvar,D07,main_system

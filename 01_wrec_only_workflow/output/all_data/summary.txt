@@ -1,0 +1,30 @@
+Scope: all_data
+Note: All ML descriptor rows; X excluded (not universal); occupancy fractions kept to distinguish systems.
+Samples: 147
+Applied eta filter: eta >= 50%
+Initial descriptors: 54
+After Pearson pruning (|r|>0.85): 20
+Top-10 features used for training:
+  - 总构型熵 ΔS_total (J/mol·K)  (S_tot)
+  - A位分数_Ca  (fA_Ca)
+  - A位构型熵 ΔS_A (J/mol·K)  (A_S)
+  - 容忍因子 t  (t)
+  - B位构型熵 ΔS_B (J/mol·K)  (B_S)
+  - A位分数_K  (fA_K)
+  - B位价态失配 σV_B  (B_vmis)
+  - A位平均相对原子质量  (A_M)
+  - B位分数_Ti  (fB_Ti)
+  - A位半径方差(Å^2)  (A_rvar)
+
+Selected models:
+  Wrec (Wrec(J/cm3)): RandomForest, Test MAE = 0.3225 ± 0.1164, Test R2 = 0.831
+  eta (效率η（%）): RandomForest, Test MAE = 2.704 ± 1.025, Test R2 = 0.244
+
+Scope interpretation:
+  - Samples with eta < 50% are excluded from
+    the dual-target workflow as outside the dielectric-energy-storage
+    application window used here.
+  - 'Best predicted' / 'Best measured' refer to the best candidate
+    in the collected dataset, not a global optimum.
+  - Pareto front uses OOF-predicted Wrec and eta.
+  - Combined score = 0.5*Wrec_norm + 0.5*eta_norm (min-max scaling).
