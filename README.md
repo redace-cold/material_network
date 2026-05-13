@@ -31,6 +31,12 @@ Core tasks:
 .
 ├── ML-4-数据收集.xlsx               # Input descriptor dataset
 ├── ml_change.py                    # Main machine-learning pipeline
+├── code_versions/                  # Separated historical/current code versions
+│   ├── 01_wrec_only_feature_selection/
+│   │   └── ml_change_wrec_only.py   # Previous Wrec-only feature-selection version
+│   └── 02_wrec_eta_dual_feature_selection/
+│       ├── ml_v2_wrec_eta.py        # Updated Wrec+η feature-selection workflow
+│       └── wrec_eta_dual_feature_selection.py
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project description
 ├── docs/
@@ -40,6 +46,20 @@ Core tasks:
 │   └── main_system/                # Target BNT-KNN-xSBCT system outputs
 └── outputs/                        # Earlier output folder kept for reference
 ```
+
+## 2.1 Code version distinction
+
+Two code versions are kept under [`code_versions/`](code_versions/) to make the
+method evolution explicit:
+
+- [`01_wrec_only_feature_selection`](code_versions/01_wrec_only_feature_selection/):
+  previous workflow. The top-10 feature selection is driven mainly by `Wrec`.
+  The eta model is used later for prediction and auxiliary scoring, but eta is
+  not used to rank the top-10 descriptors.
+- [`02_wrec_eta_dual_feature_selection`](code_versions/02_wrec_eta_dual_feature_selection/):
+  updated workflow. The top-10 feature selection combines `Wrec` and eta with
+  the default weighting `0.70 * Wrec + 0.30 * eta`, so `Wrec` remains the
+  primary target while eta contributes as an auxiliary screening target.
 
 ## 3. Dataset strategy: all_data and main_system
 
