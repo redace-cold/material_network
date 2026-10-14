@@ -1,0 +1,6 @@
+,exact x=0.16,exact x=0.16,exact x=0.16,exact x=0.16,exact x=0.16,peak region (Wrec>=6.40),peak region (Wrec>=6.40),peak region (Wrec>=6.40),peak region (Wrec>=6.40),peak region (Wrec>=6.40)
+,found_within_budget_%,median_N,mean_N,P25_N,P75_N,found_within_budget_%,median_N,mean_N,P25_N,P75_N
+Strategy,,,,,,,,,,
+Coarse-to-fine grid,100.0,20.0,18.72,19.0,20.0,100.0,20.0,17.26,19.0,20.0
+ML (EHVI),100.0,10.0,9.51,8.0,12.0,100.0,6.0,5.75,5.0,7.0
+Random,36.0,15.0,14.722222222222221,8.75,20.0,88.0,11.0,12.534090909090908,6.75,18.0

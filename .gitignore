@@ -1,19 +1,22 @@
-﻿# Python cache and local environment
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 .venv/
 venv/
+.pylibs/
+.matplotlib/
+results/
+*.log
 .env
-
-# Editor and OS files
+.env.*
+.ssh/
+*credentials*
+*token*
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Temporary files
 *.tmp
 *.bak
 ~$*

@@ -1,0 +1,12 @@
+{
+  "raw_rows": 148,
+  "eligible_rows": 147,
+  "target_rows": 101,
+  "target_rows_overlap_descriptor_dataset": true,
+  "target_x": 0.16,
+  "target_Wrec": 6.87,
+  "target_eta": 86.0,
+  "target_is_max_Wrec": true,
+  "target_is_max_eta": true,
+  "descriptor_max_relative_error": 4.5925613927305025e-08
+}

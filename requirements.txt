@@ -1,5 +1,2 @@
-﻿numpy
-pandas
-matplotlib
-scikit-learn
-openpyxl
+# Current reproducibility environment.
+-r environment/requirements.txt

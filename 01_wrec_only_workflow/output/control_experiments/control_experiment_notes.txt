@@ -1,6 +1,0 @@
-Control experiments
-1. Traditional X-only polynomial: degree-3 Ridge trend using X only; only meaningful for main_system.
-2. No-derived descriptors: removes perovskite-specific derived descriptors such as t, mu, entropy, radius variance, electronegativity mismatch and valence mismatch.
-3. Full descriptor framework: current main workflow using all_data-selected features.
-4. Candidate comparison: contrasts Wrec-only ranking against Wrec+eta combined-score ranking.
-Interpretation boundary: these controls are baselines for method comparison; they do not prove global optimality.

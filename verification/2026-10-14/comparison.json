@@ -1,0 +1,591 @@
+{
+  "probe": {
+    "rows": 6,
+    "repeats": 2,
+    "query_sequences_and_hit_times_exact_match": true
+  },
+  "algorithm_ast_checks": {
+    "retrospective_bo.py:load_pool": true,
+    "retrospective_bo.py:fit_models": true,
+    "retrospective_bo.py:ehvi_next": true,
+    "retrospective_bo.py:grid_order": true,
+    "retrospective_bo.py:run_strategy": true,
+    "retrospective_bo.py:experiments_to": true,
+    "ml_v3.py:LineGP": true,
+    "ml_v3.py:predict_objectives": true,
+    "ml_v3.py:hv_improvement": true,
+    "ml_v3.py:pareto_front": true,
+    "ml_v2.py:_base_regressor": true,
+    "ml_v2.py:make_model": true,
+    "ml_v2.py:repeated_cv": true,
+    "ml_v2.py:run_scope": true
+  },
+  "workbook_git_blob": "ceec70d905be063d32aada2501a2f635013c9731",
+  "full_retrospective": {
+    "rows": 300,
+    "repeats": 100,
+    "query_sequences_and_hit_times_exact_match": true
+  },
+  "descriptor_comparison": {
+    "all_data": {
+      "rows": 14,
+      "numeric_columns": [
+        "Target_Range",
+        "Train_MAE_mean",
+        "Train_MAE_std",
+        "Train_Normalized_MAE",
+        "Train_Normalized_MAE_std",
+        "Test_MAE_mean",
+        "Test_MAE_std",
+        "Test_Normalized_MAE",
+        "Test_Normalized_MAE_std",
+        "Train_R2_mean",
+        "Train_R2_std",
+        "Test_R2_mean",
+        "Test_R2_std"
+      ],
+      "max_abs_difference": 0.011955988714991594,
+      "rtol": 1e-09,
+      "atol": 1e-12,
+      "all_match": false,
+      "mismatched_values": 78,
+      "selected_features_identical": true,
+      "test_mae_comparison": [
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0710851358476073,
+          "fresh": 0.071127951390591,
+          "difference": 4.281554298370127e-05
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0172259468310439,
+          "fresh": 0.0173505595287635,
+          "difference": 0.00012461269771960048
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0695831764248121,
+          "fresh": 0.0695831764248121,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0217565437965521,
+          "fresh": 0.0217565437965521,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.1023695460036075,
+          "fresh": 0.1023695460036075,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0210158765158671,
+          "fresh": 0.0210158765158671,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0551872635507167,
+          "fresh": 0.0553842864896022,
+          "difference": 0.0001970229388854952
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0211157644150073,
+          "fresh": 0.0212478308173907,
+          "difference": 0.00013206640238339756
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0524205468435638,
+          "fresh": 0.0524182169089212,
+          "difference": -2.3299346426017276e-06
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0179709668573213,
+          "fresh": 0.0179687156477514,
+          "difference": -2.251209569897883e-06
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.1645767812850997,
+          "fresh": 0.1645767812850997,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0318693386820119,
+          "fresh": 0.0318693386820119,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0727322714566639,
+          "fresh": 0.0727322714566639,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "Wrec",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0182985543550804,
+          "fresh": 0.0182985543550804,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0676529763492112,
+          "fresh": 0.0673683099512352,
+          "difference": -0.00028466639797600224
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0204779174418158,
+          "fresh": 0.0205325391720347,
+          "difference": 5.462173021890046e-05
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0723199022317666,
+          "fresh": 0.0722129181047825,
+          "difference": -0.00010698412698409432
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0281255562349271,
+          "fresh": 0.0280358360452017,
+          "difference": -8.972018972540005e-05
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0735800701370734,
+          "fresh": 0.0735800701370734,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0220465291961884,
+          "fresh": 0.0220465291961884,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0606341386206177,
+          "fresh": 0.0603949385355403,
+          "difference": -0.00023920008507739843
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0254929575639826,
+          "fresh": 0.0255376784597659,
+          "difference": 4.47208957832998e-05
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0591487343934141,
+          "fresh": 0.0591493141278951,
+          "difference": 5.79734480997407e-07
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0233981800859753,
+          "fresh": 0.0234007891807294,
+          "difference": 2.6090947540975684e-06
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.1005077707816933,
+          "fresh": 0.1005077707816933,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0309735428868467,
+          "fresh": 0.0309735428868467,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0830867243389885,
+          "fresh": 0.0830867243389885,
+          "difference": 0.0
+        },
+        {
+          "scope": "all_data",
+          "target": "eta",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.031832277451573,
+          "fresh": 0.031832277451573,
+          "difference": 0.0
+        }
+      ],
+      "unmodified_source_matches_packaged_source": true,
+      "unmodified_vs_packaged_max_abs_difference": 0.0
+    },
+    "main_system": {
+      "rows": 14,
+      "numeric_columns": [
+        "Target_Range",
+        "Train_MAE_mean",
+        "Train_MAE_std",
+        "Train_Normalized_MAE",
+        "Train_Normalized_MAE_std",
+        "Test_MAE_mean",
+        "Test_MAE_std",
+        "Test_Normalized_MAE",
+        "Test_Normalized_MAE_std",
+        "Train_R2_mean",
+        "Train_R2_std",
+        "Test_R2_mean",
+        "Test_R2_std"
+      ],
+      "max_abs_difference": 0.0045184769795169055,
+      "rtol": 1e-09,
+      "atol": 1e-12,
+      "all_match": false,
+      "mismatched_values": 24,
+      "selected_features_identical": true,
+      "test_mae_comparison": [
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.034699835333331,
+          "fresh": 0.034699835333331,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0087334423360477,
+          "fresh": 0.0087334423360477,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0386831770005835,
+          "fresh": 0.0386831770005835,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0092917725710397,
+          "fresh": 0.0092917725710397,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0205296251593929,
+          "fresh": 0.0205296251593929,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0067272091880909,
+          "fresh": 0.0067272091880909,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0169599617294061,
+          "fresh": 0.0169454064245632,
+          "difference": -1.4555304842900352e-05
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0043402632313336,
+          "fresh": 0.0044056469189803,
+          "difference": 6.538368764669959e-05
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0215660181928344,
+          "fresh": 0.0215660181928344,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0075927971439796,
+          "fresh": 0.0075927971439796,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.074271247350517,
+          "fresh": 0.074271247350517,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0181774063799721,
+          "fresh": 0.0181774063799721,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0266566474644382,
+          "fresh": 0.0266566474644382,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "Wrec",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0074982214553529,
+          "fresh": 0.0074982214553529,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0466810838628618,
+          "fresh": 0.0466810838628618,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "AdaBoost",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.018357904766876,
+          "fresh": 0.018357904766876,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0473357544929539,
+          "fresh": 0.0473357544929539,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "DecisionTree",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0169837834992907,
+          "fresh": 0.0169837834992907,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0379150101584438,
+          "fresh": 0.0379150101584438,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "ExtraTrees",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0169667882520938,
+          "fresh": 0.0169667882520938,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0385462858984203,
+          "fresh": 0.0384682043624139,
+          "difference": -7.808153600639967e-05
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "GradientBoosting",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0156703289420196,
+          "fresh": 0.0159527337532394,
+          "difference": 0.0002824048112198031
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0384033958643357,
+          "fresh": 0.0384033958643357,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "RandomForest",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0164636280270335,
+          "fresh": 0.0164636280270335,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0887248506349812,
+          "fresh": 0.0887248506349812,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "Ridge",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0255109213575398,
+          "fresh": 0.0255109213575398,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE",
+          "archived": 0.0404941664141978,
+          "fresh": 0.0404941664141978,
+          "difference": 0.0
+        },
+        {
+          "scope": "main_system",
+          "target": "eta",
+          "model": "SVR",
+          "metric": "Test_Normalized_MAE_std",
+          "archived": 0.0174125242766032,
+          "fresh": 0.0174125242766032,
+          "difference": 0.0
+        }
+      ],
+      "unmodified_source_matches_packaged_source": true,
+      "unmodified_vs_packaged_max_abs_difference": 0.0
+    }
+  }
+}

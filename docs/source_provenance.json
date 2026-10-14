@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-14",
+  "upstream": "Author-provided VPS ml_v2 and ml_v3 source snapshot",
+  "files": [
+    {
+      "file": "ml_v2/ml_v2.py",
+      "bytes": 72131,
+      "sha256": "1d6705c7a107e3e5624c9e665f587fd6fe068b988ecbb74618c79d42628ed073"
+    },
+    {
+      "file": "ml_v2/wrec_eta_dual_feature_selection.py",
+      "bytes": 11439,
+      "sha256": "d5e5e2f37e008641309cb31071beffd9b18c090028a3f3ae43e988d8c2cea5c3"
+    },
+    {
+      "file": "ml_v3/ml_v3.py",
+      "bytes": 23414,
+      "sha256": "918b1f0b636c993502a1f2e0efbfeee6d9e7ce1bd38b92ed11cc8359816f5f5d"
+    },
+    {
+      "file": "ml_v3/retrospective_bo.py",
+      "bytes": 8951,
+      "sha256": "4510dde95a838d6a7462a2dfe4d400965eb485de4ac1a97d896c2b43e741ff12"
+    },
+    {
+      "file": "ml_v3/descriptors.py",
+      "bytes": 6562,
+      "sha256": "2b42ac1f450aeb7836222ec395440ec07a179b9ec0e1d057976f12fd97e374ef"
+    },
+    {
+      "file": "ml_v3/README.md",
+      "bytes": 10314,
+      "sha256": "e2b3e949a2cb61ea586a2ef8a47030c941f5a10d8f505521b9e959d35c3f9543"
+    },
+    {
+      "file": "ml_v3/run.sh",
+      "bytes": 271,
+      "sha256": "73e205e29f75b669e30250c79ba24065b471967714cfb405287ff75512d48eb0"
+    },
+    {
+      "file": "ml_v3/requirements.txt",
+      "bytes": 96,
+      "sha256": "e0f1772e235ecd58b91ced5582cbfd772f031d266137487140f2ea35d993ae0f"
+    },
+    {
+      "file": "ml_v3/data/ML-4-数据收集.xlsx",
+      "bytes": 102255,
+      "sha256": "2005aafb2fbcc74ebdac3c05586a8aa09548bec09956115f58e254da7d3e8359"
+    }
+  ],
+  "changes": "Portability, explicit entrypoints, labels, non-finite validation, censored-summary labeling. Search/model parameters and measurements unchanged."
+}

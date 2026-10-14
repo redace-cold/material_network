@@ -1,0 +1,50 @@
+{
+  "description": "Inputs and previously generated reference results; reference CSVs are not newly recomputed results.",
+  "files": [
+    {
+      "path": "data/ML-4-数据收集.xlsx",
+      "bytes": 102255,
+      "sha256": "2005aafb2fbcc74ebdac3c05586a8aa09548bec09956115f58e254da7d3e8359"
+    },
+    {
+      "path": "data/reference/descriptors/all_data/feature_columns_top10.csv",
+      "bytes": 466,
+      "sha256": "4f965c439ea96baccd671286d4b091e81f67cc0989d09c46ad070d70eb08aa54"
+    },
+    {
+      "path": "data/reference/descriptors/all_data/Figure1f_model_selection_summary.csv",
+      "bytes": 4067,
+      "sha256": "4b474289c0aafaae3fdcfff550d7b2a193665ba61ab40496b8587cb4ddc90a6d"
+    },
+    {
+      "path": "data/reference/descriptors/all_data/selected_models.csv",
+      "bytes": 295,
+      "sha256": "e37b2e804f21f4a2e715dc0b17e8558541b7af0a080aceaee7a5900b40e37405"
+    },
+    {
+      "path": "data/reference/descriptors/main_system/feature_columns_top10.csv",
+      "bytes": 385,
+      "sha256": "91fb73de70b500d18917a84750f96146a713b1f075e3f7cacb90129f7aa143cf"
+    },
+    {
+      "path": "data/reference/descriptors/main_system/Figure1f_model_selection_summary.csv",
+      "bytes": 4133,
+      "sha256": "55fe5235968b22f1db3d55fdfcaf639a376f3883416d42f663c8140e32f514d7"
+    },
+    {
+      "path": "data/reference/descriptors/main_system/selected_models.csv",
+      "bytes": 297,
+      "sha256": "e11af885ae9c84e21dc0ac91faf807c6fe21837c1a12dae84d5b7ff100e0290c"
+    },
+    {
+      "path": "data/reference/retrospective/runs.csv",
+      "bytes": 66825,
+      "sha256": "0c781f52141bce68a6e62d4e04ccc0f453a6e8f1e4f69d7bc3ad3301e9cee9cf"
+    },
+    {
+      "path": "data/reference/retrospective/summary.csv",
+      "bytes": 534,
+      "sha256": "7f17f7d0b8ad2890a2b4305fb80d27e9edd7934fe1c33fc53e0817a08d1c538e"
+    }
+  ]
+}

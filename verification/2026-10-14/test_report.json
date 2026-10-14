@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-14",
+  "platform": "Windows, local execution",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "openpyxl": "3.1.5"
+  },
+  "checks": [
+    {
+      "name": "inputs",
+      "exit_code": 0,
+      "elapsed_seconds": 14.17
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "elapsed_seconds": 3.88
+    },
+    {
+      "name": "smoke",
+      "exit_code": 0,
+      "elapsed_seconds": 5.27
+    },
+    {
+      "name": "figures",
+      "exit_code": 0,
+      "elapsed_seconds": 3.73
+    },
+    {
+      "name": "seed_probe",
+      "exit_code": 0,
+      "elapsed_seconds": 7.27
+    },
+    {
+      "name": "full_retrospective",
+      "exit_code": 0,
+      "elapsed_seconds": 163.86
+    },
+    {
+      "name": "full_descriptors",
+      "exit_code": 0,
+      "elapsed_seconds": 120.04
+    }
+  ],
+  "retrospective": {
+    "runs_per_strategy": 100,
+    "strategies": 3,
+    "initial": 3,
+    "budget": 30,
+    "MC_samples": 1000
+  },
+  "descriptor_CV": {
+    "folds": 10,
+    "repeats": 5,
+    "scopes": [
+      "all_data",
+      "main_system"
+    ]
+  },
+  "source_control_run": {
+    "status": "succeeded",
+    "source": "Unmodified source snapshot; only paths overridden and optional controls disabled.",
+    "elapsed_seconds": 116.23964595794678
+  },
+  "not_executed": [
+    "Code Ocean Reproducible Run",
+    "Docker build/run",
+    "optional exploratory proposals",
+    "optional descriptor control experiments"
+  ]
+}

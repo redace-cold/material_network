@@ -1,8 +1,0 @@
-﻿Feature,Feature_Alias,Descriptor_Code,Scope
-总构型熵 ΔS_total (J/mol·K),S_tot,D01,main_system
-A位构型熵 ΔS_A (J/mol·K),A_S,D02,main_system
-A/B平均半径比,rA_rB,D03,main_system
-Δχ(A-O),dchi_AO,D04,main_system
-B位构型熵 ΔS_B (J/mol·K),B_S,D05,main_system
-总价态失配 σV_total,vmis_tot,D06,main_system
-B位价态失配 σV_B,B_vmis,D07,main_system

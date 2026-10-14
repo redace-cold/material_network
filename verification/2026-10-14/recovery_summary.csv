@@ -1,0 +1,4 @@
+Strategy,Runs,Found_within_budget_percent,Median_queries_all_runs,Median_status,Median_queries_among_found
+GP–EHVI,100,100.0,10.0,reached,10.0
+Grid scan,100,100.0,20.0,reached,20.0
+Random,100,36.0,,not reached within 30 queries,15.0

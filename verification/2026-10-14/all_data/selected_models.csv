@@ -1,0 +1,3 @@
+﻿Target_Key,Target_Column,Selected_Model,Top_N_Features,CV_Test_MAE_mean,CV_Test_MAE_std,CV_Test_R2_mean
+Wrec,Wrec(J/cm3),RandomForest,10,0.3035014759026541,0.10403886360048088,0.8491489561228788
+eta,效率η（%）,RandomForest,10,2.484271193371598,0.9828331455906352,0.3724445684261866
